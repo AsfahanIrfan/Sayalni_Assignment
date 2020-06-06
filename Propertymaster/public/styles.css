@@ -1,0 +1,215 @@
+.navbar{
+background-color: #000;
+height: 80px;
+}
+.white{
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    margin-left: 50px;
+    float: left;
+}
+.title{
+    float: left;
+    margin-top: 20px;
+}
+.title1{
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.title2{
+    margin-top: 30px;
+    padding-top: 30px;
+    color:#337ab7;
+    font-size: 20px;
+}
+.title4{
+    margin-top: 30px;
+    padding-top: 30px;
+    color:white;
+    font-size: 20px;
+}
+.title3{
+    margin-top: 30px;
+    padding-top: 30px;
+    color:black;
+    font-size: 20px;
+}
+#headder{
+margin-left:410px;
+margin-top:10px;
+}
+#navv{
+height:80px;
+}
+ul li{
+    margin-top: 10px;
+}
+li a{
+font-size:18px;
+display: inline-block;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav li{
+    padding-left: 40px;
+    text-decoration: none;
+}
+.nav-link::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: blue;
+    transition: width .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.title2:hover{
+    color: white;
+}
+.title1:hover{
+    color: #337ab7;
+}
+.footer{
+    background-color:#337ab7;
+}
+.AOC{
+    color:black;
+}
+.AOC1{
+    color: white;
+}
+.contact{
+    margin-left:100px;
+}
+.mail, .phoneno, .addres{
+    color: black;
+}
+.info ul > li{
+    list-style: none;
+}
+.service{
+    color: #337ab7;
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+.service1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pictureservice{
+    margin-bottom: 50px;
+}
+.titleser{
+    font-size: 25px;
+    font-weight: bold;
+}
+.servicefont{
+    font-size:36px;
+    color:black;
+}
+.servicepara{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: white;
+}
+.servicepara1{
+    margin-top: 50px;
+    font-size: 19px;
+    margin-left: 50px;
+    font-weight: bold;
+
+}
+.latesttitle{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.latestpicture{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.latestpicture:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+
+.latesttitle1{
+    color:#337ab7;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.abtpicture{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutpara{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+.abtpicture1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 200px;
+}
+.ceoname{
+    margin-left: 500px;
+    margin-top: -80px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.form1{
+    margin-top: 100px;
+    width: 500px;
+    height: 30px;
+    margin-left: 30px;
+}
+.form2{
+    width: 500px;
+    height: 30px;
+    margin-left:335px;
+}
+.form3{
+    width: 500px;
+    height: 30px;
+    margin-left:30px;
+}
+.submitbtn{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color:black;
+    font-weight: bold;
+}
+.button{
+    background-color: #337ab7;
+}
+
+.button:hover{
+    background-color: white;
+    color: #337ab7;
+}
